@@ -16,50 +16,50 @@
 <table>
     <thead>
     <tr>
-        <th>Payment transaction failed.</th>
+        <th>Transactie mislukt.</th>
     </tr>
     </thead>
     <tbody>
     <tr>
         <td>
             <p>
-                <b>Reason</b><br />
+                <b>Reden</b><br>
                 {{var reason}}
             </p>
             <p>
-                <b>Checkout Type</b><br />
+                <b>Checkout Type</b><br>
                 {{var checkoutType}}
             </p>
             <p>
-                <b>Customer:</b><br />
+                <b>klant:</b><br>
                 <a href="mailto:{{var customerEmail}}">{{var customer}}</a> &lt;{{var customerEmail}}&gt;
             </p>
             <p>
-                <b>Items</b><br />
+                <b>Items</b><br>
                 {{var items}}
             </p>
             <p>
-                <b>Total:</b><br />
+                <b>Totaal:</b><br>
                 {{var total}}
             </p>
             <p>
-                <b>Billing Address:</b><br />
+                <b>factuuradres:</b><br>
                 {{var billingAddress.format('html')}}
             </p>
             <p>
-                <b>Shipping Address:</b><br />
+                <b>Verzendadres:</b><br>
                 {{var shippingAddress.format('html')}}
             </p>
             <p>
-                <b>Shipping Method:</b><br />
+                <b>Verzendmethode:</b><br>
                 {{var shippingMethod}}
             </p>
             <p>
-                <b>Payment Method:</b><br />
+                <b>Betalingsmethode:</b><br>
                 {{var paymentMethod}}
             </p>
             <p>
-                <b>Date & Time:</b><br />
+                <b>Datum & Tijd:</b><br>
                 {{var dateAndTime}}
             </p>
         </td>
